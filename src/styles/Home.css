@@ -1,0 +1,48 @@
+.contenedor-fondo {
+    width: 100%;
+    height: 550px;
+    background-image: linear-gradient(rgba(44,24,16,0.55), rgba(44,24,16,0.55)), var(--hero-image);
+    background-size: cover;
+    background-position: center;
+}
+
+.contenido-prin {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    top: 35%;
+    font-size: 35px;
+}
+
+.contenido-prin h1{
+    color: #FFF5EE;
+    text-shadow: 1px 4px 10px #0d0a0a;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+
+.contenido-prin p{
+    font-weight: 600;
+    color: #a49991;
+    text-shadow: 1px 4px 10px #0d0a0a;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.contenido-prin a{
+    margin: 17px;
+    border-radius: 15px;
+    text-decoration: none;
+    background-color: #1c2d3ad5;
+    padding: 14px;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+    font-size: 25px;
+}
+
+.contenido-prin a:hover{
+    background-color: var(--color-principal);
+    color: #FFF5EE;
+    transform: scale(1.2);
+}

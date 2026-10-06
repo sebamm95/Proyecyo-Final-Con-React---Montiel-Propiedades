@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+:root{
+    --font-heading: "Forum", serif;
+    --font-body: "Forum", serif;
+    --color-principal: #1c2d3a;
+    --color-secundario: #bc9967;
+    --color-links-nav: #FFFAFA;
+    --color-white: #FFFFFF;
+    --color-bg: #f5f5f5;
+    --color-accent: #bc9967;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-heading);
+}
+
+main{
+    padding-top: 80px;
+}
+
+/* Estilo base de todos los enlaces  */
+a{
+    font-weight: 600;
+    color: #a49991;
+    text-shadow: 1px 4px 10px #0d0a0a;
+}
+
+h2{
+    letter-spacing: 1px;
+    color: var(--color-principal);
+}
